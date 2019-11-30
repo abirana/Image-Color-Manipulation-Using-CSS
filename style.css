@@ -1,0 +1,133 @@
+figure {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+img {
+  width: 400px;
+  max-width: 100%;
+}
+
+.bg-yellow {
+  background-color: #b1b145;
+}
+
+.bg-green {
+  background-color: #c8e6c9;
+}
+
+.bg-grey {
+  background-color: #dddddd;
+}
+
+.bg-orange {
+  background-color: #ffecb3;
+}
+
+.bg-thistle {
+  background-color: thistle;
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+/* image filter effect */
+.colorEffect-imgFilter-1 {
+  -webkit-filter: contrast(180%);
+          filter: contrast(180%);
+}
+
+.colorEffect-imgFilter-2 {
+  -webkit-filter: contrast(380%);
+          filter: contrast(380%);
+}
+
+/* parent's bg effect */
+.colorEffect-parentBG > img {
+  display: block;
+  opacity: 0.85;
+}
+
+/* parent's bg effect */
+.colorEffect-parentBG-Img {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-blend-mode: luminosity;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* end parent's bg effect */
+.bg-img-1 {
+  background-image: url(./01.jpg);
+}
+
+.bg-img-4 {
+  background-image: url(./04.jpg);
+}
+
+/* parent's bg effect responsive */
+.colorEffect-parentBG-ImgRes {
+  display: inline-block;
+  background-blend-mode: luminosity;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.colorEffect-parentBG-ImgRes > img {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* not applicable for the output project */
+body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+figure.fig-1:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px;
+  margin-bottom: 1rem;
+  border: 1px solid #00a3c5;
+  background-color: #f1f1f1;
+}
+
+table tr > th {
+  background-color: #00a3c5;
+  color: white;
+  padding: 0.5rem 0.5rem;
+}
+
+table tr > * {
+  border: 1px solid #00a3c5;
+  padding: 0.25rem 0.5rem;
+}
+
+table ul {
+  padding-left: 20px;
+}
+
+table ul > li:empty {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

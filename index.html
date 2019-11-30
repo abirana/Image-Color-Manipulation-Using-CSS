@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Image Color</title>
+</head>
+<body>
+    <div>
+        <h3>#1 Using Filter effect</h3>
+
+        <img src="01.jpg" alt="" class="colorEffect-imgFilter-1">
+        <img src="04.jpg" alt="" class="colorEffect-imgFilter-2">
+    </div>
+    <div>
+        <h3>#2 Using Parent's Background Color</h3>
+
+        <figure class="colorEffect-parentBG bg-yellow">
+            <img src="01.jpg" alt="">
+        </figure>
+        <figure class="colorEffect-parentBG bg-hotpink">
+            <img src="04.jpg" alt="">
+        </figure>
+    </div>
+    <div>
+        <h3>#3 Using as Parent's Background Image and Background Color Blend</h3>
+        <div class="colorEffect-parentBG-Img bg-yellow bg-img-1"></div>
+        <div class="colorEffect-parentBG-Img bg-grey bg-img-4"></div>
+        <div class="colorEffect-parentBG-Img bg-thistle bg-img-4"></div>
+        <div class="colorEffect-parentBG-Img bg-orange bg-img-1"></div>
+        <div class="colorEffect-parentBG-Img bg-green bg-img-4"></div>
+        <div class="colorEffect-parentBG-Img bg-lightblue bg-img-4"></div>
+    </div>
+    <div>
+        <h3>#4 Same as above but with responsive trick - gets image height/width automatically</h3>
+
+        <figure class="colorEffect-parentBG-ImgRes bg-yellow bg-img-1">
+            <img src="01.jpg" alt="">
+        </figure>
+        <figure class="colorEffect-parentBG-ImgRes bg-grey bg-img-4">
+            <img src="04.jpg" alt="">
+        </figure>
+        <figure class="colorEffect-parentBG-ImgRes bg-thistle bg-img-1">
+            <img src="01.jpg" alt="">
+        </figure>
+        <figure class="colorEffect-parentBG-ImgRes bg-orange bg-img-4">
+            <img src="04.jpg" alt="">
+        </figure>
+        <figure class="colorEffect-parentBG-ImgRes bg-green bg-img-1">
+            <img src="01.jpg" alt="">
+        </figure>
+        <figure class="colorEffect-parentBG-ImgRes bg-lightblue bg-img-4">
+            <img src="04.jpg" alt="">
+        </figure>
+    </div>
+</body>
+</html>
