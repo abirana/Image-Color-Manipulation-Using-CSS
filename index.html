@@ -7,17 +7,77 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Image Color</title>
+    <title>Image Color Manupulation Using CSS by Abi Rana</title>
 </head>
 <body>
     <div>
         <h3>#1 Using Filter effect</h3>
+        <!-- <table>
+            <tbody>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                    <th>Browser Support</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Easy to apply</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Not predictable - hard to get the color you want</li>
+                            <li>Color manupulation is not good</li>
+                            <li>Doesn't work well with white color</li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        Widely supported on modern broswers, may have issue with older IE
+                    </td>
+                </tr>
+            </tbody>
+        </table> -->
 
         <img src="01.jpg" alt="" class="colorEffect-imgFilter-1">
         <img src="04.jpg" alt="" class="colorEffect-imgFilter-2">
     </div>
     <div>
         <h3>#2 Using Parent's Background Color</h3>
+        <!-- <table>
+            <tbody>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                    <th>Browser Support</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Easy to apply</li>
+                            <li>Well supported</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Looks more faded</li>
+                            <li>Color manupulation is not that great</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        Widely supported, even older broswers
+                    </td>
+                </tr>
+            </tbody>
+        </table> -->
 
         <figure class="colorEffect-parentBG bg-yellow">
             <img src="01.jpg" alt="">
@@ -28,6 +88,37 @@
     </div>
     <div>
         <h3>#3 Using as Parent's Background Image and Background Color Blend</h3>
+        <!-- <table>
+            <tbody>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                    <th>Browser Support</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Best color output</li>
+                            <li>Wide range of color manupulation</li>
+                            <li>Easy to get the color you want</li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Height/width has to be set so extra responsive work</li>
+                            <li>Background image has to be set in CSS</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </td>
+                    <td>
+                        Widely supported on modern broswers, may have issue with older IE & Edge
+                    </td>
+                </tr>
+            </tbody>
+        </table> -->
+
         <div class="colorEffect-parentBG-Img bg-yellow bg-img-1"></div>
         <div class="colorEffect-parentBG-Img bg-grey bg-img-4"></div>
         <div class="colorEffect-parentBG-Img bg-thistle bg-img-4"></div>
